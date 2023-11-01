@@ -4,22 +4,56 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Reis Books</title>
+        <link rel="icon" href="imagens/favicon.ico" />
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="reset.css" />
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <header class="cabecalho">
-            <span class="cabecalho__menu-hamburguer"></span>
-            <img src="imagens/Logo.svg" alt="Logo" />
-            <a href="#">
-                <img src="imagens/Frame 3.svg" alt="Meus usuarios"
-            /></a>
-            <a href="#">
-                <img src="imagens/Frame 98.svg" alt="Carrinho de compras"
-            /></a>
-            <a href="#">
-                <img src="imagens/Frame 145.svg" alt="Meus favoritos"
-            /></a>
+            <div class="container">
+                <button
+                    class="cabecalho__menu-hamburguer container__imagem"
+                    onclick="openNav()"
+                ></button>
+
+                <div id="myNav" class="overlay">
+                    <a
+                        href="javascript:void(0)"
+                        class="closebtn"
+                        onclick="closeNav()"
+                    >
+                        &times;</a
+                    >
+                </div>
+
+                <img
+                    src="imagens/favicon.ico"
+                    alt="Logo Reis"
+                    class="container__imagem"
+                />
+            </div>
+
+            <div class="container">
+                <a href="#">
+                    <img
+                        src="imagens/Frame 3.svg"
+                        alt="Meus usuarios"
+                        class="container__imagem"
+                /></a>
+                <a href="#">
+                    <img
+                        src="imagens/Frame 98.svg"
+                        alt="Carrinho de compras"
+                        class="container__imagem"
+                /></a>
+                <a href="#">
+                    <img
+                        src="imagens/Frame 145.svg"
+                        alt="Meus favoritos"
+                        class="container__imagem"
+                /></a>
+            </div>
         </header>
     </body>
 </html>
