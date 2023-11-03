@@ -10,6 +10,13 @@ body {
     background-color: var(--cor-de-fundo);
 }
 
+footer {
+    background-color: #194b77;
+    font-size: 5%;
+    color: var(--branco);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .nav-button {
     border: 0;
     border-radius: 4px;
