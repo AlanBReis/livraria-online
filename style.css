@@ -4,17 +4,38 @@
     --cor-de-fundo: #ebecee;
     --branco: #ffffff;
     --cinza: #818181;
+    --fundo-rodape: #194b77;
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    
+}
+
+.container {
+    position: relative;
+    background-color: var(--branco);
+    width: 100%;
+}
+
+#texto {
+    background-color: var(--cor-de-fundo);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
 }
 
 footer {
-    background-color: #194b77;
+    background-color: #000000;
+    border-top: 1px solid #333;
     font-size: 5%;
     color: var(--branco);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    text-align: center;
 }
 
 .nav-button {
