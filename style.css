@@ -5,6 +5,7 @@
     --branco: #ffffff;
     --cinza: #818181;
     --fundo-rodape: #194b77;
+    --preto: #000000;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
 }
 
 footer {
-    background-color: #000000;
+    background-color: var(--preto);
     border-top: 1px solid #333;
     font-size: 5%;
     color: var(--branco);
