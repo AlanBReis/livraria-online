@@ -6,6 +6,33 @@
     --cinza: #818181;
     --fundo-rodape: #194b77;
     --preto: #000000;
+    --main-color: #407bff;
+    --link-color: #666666;
+    --text1: #999999;
+    --highligth-text: #333333;
+    --input-text: #555555;
+    --point-list: #cccccc;
+    --line-input: #d9d9d9;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../livraria-online/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../livraria-online/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../livraria-online/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../livraria-online/fonts/Poppins/Poppins-SemiBold.ttf);
 }
 
 body {
@@ -18,12 +45,81 @@ body {
     width: 100%;
 }
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container_login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--branco);
+}
+
+.wrap_login {
+    width: 370px;
+    margin-right: 50px;
+    background-color: var(--branco);
+}
+
+.login_form {
+    width: 100%;
+}
+
+.login_form_title {
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 39px;
+    color: var(--highligth-text);
+    line-height: 1.2;
+    text-align: center;
+}
+
 #texto {
     background-color: var(--cor-de-fundo);
     position: absolute;
     left: 50%;
     top: 50%;
     text-align: center;
+}
+
+.text1 {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: var(--text1);
+    line-height: 1.5;
+}
+
+.text2 {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: var(--main-color);
+    line-height: 1.5;
+}
+
+.margin_top_35 {
+    margin-top: 35px;
+}
+
+.margin_bottom_35 {
+    margin-bottom: 35px;
+}
+
+.margin_bottom_8 {
+    margin-bottom: 8px;
+}
+
+.margin_top_8 {
+    margin-bottom: 8px;
+}
+
+.margin_left_50 {
+    margin-left: 50px;
 }
 
 footer {
