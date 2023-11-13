@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="reset.css" />
         <script type="text/javascript" src="script.js"></script>
     </head>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+    </style>
     <body>
         <header class="cabecalho">
             <div class="container_menu">
@@ -109,8 +112,29 @@
                         </ul>
                     </form>
                 </div>
+                <img
+                    src="imagens/Computer login-bro.png"
+                    alt="imagem de login"
+                    width="300"
+                    height="300"
+                    class="margin_left_50"
+                />
             </div>
         </div>
+
+        <script>
+            let inputs = document.getElementsByClassName("input_form");
+            for(let input of inputs) {
+                input.addEventListener("Blur", function() {
+                    if(input.value.trim() != "") {
+                        input.classList.add("has-val")
+                    }
+                    else {
+                        input.classList.remove("has-val")
+                    }
+                }
+            }
+        </script>
         <footer>
             <p id="rodape">
                 © Direitos Reservados <br />
