@@ -21,6 +21,11 @@
     align-items: center;
 }
 
+.container_menu2 {
+    display: flex;
+    align-items: right;
+}
+
 .container__imagem {
     padding: 1em;
 }

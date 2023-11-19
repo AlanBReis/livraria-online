@@ -25,13 +25,6 @@ body {
     width: 100%;
 }
 
-.container_menu2 {
-    position: relative;
-    background-color: var(--branco);
-    width: 100%;
-    right: -35%;
-}
-
 .container {
     width: 100%;
     margin: 0 auto;
@@ -327,5 +320,4 @@ footer {
         top: 15px;
         right: 35px;
     }
-    
 }
