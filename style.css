@@ -1,7 +1,7 @@
 @import url(styles/header.css);
 
 :root {
-    --cor-de-fundo: #ebecee;
+    --cor-de-fundo: #eb8f40;
     --branco: #ffffff;
     --cinza: #818181;
     --fundo-rodape: #194b77;
@@ -28,6 +28,7 @@ body {
 .container {
     width: 100%;
     margin: 0 auto;
+    
 }
 
 .container_login {

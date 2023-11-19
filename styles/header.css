@@ -24,6 +24,7 @@
 .container_menu2 {
     display: flex;
     align-items: right;
+    background-color: var(--branco);
 }
 
 .container__imagem {
